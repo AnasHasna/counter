@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    background-color: azure;
+}
+.counter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 300px;
+}
+.counter h1{
+    font-weight: bold;
+    font-size: 75px;
+}
+.counter p{
+    font-size: 75px;
+}
+.box button{
+    padding: 7px 22px;
+    margin: 30px 20px;
+    cursor: pointer;
+}
